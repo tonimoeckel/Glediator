@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8900F89D14C5644F0008A14C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900F89C14C5644F0008A14C /* UIKit.framework */; };
+		8900F89F14C5644F0008A14C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900F89E14C5644F0008A14C /* Foundation.framework */; };
+		8900F8A114C5644F0008A14C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900F8A014C5644F0008A14C /* CoreGraphics.framework */; };
+		8900F8A714C5644F0008A14C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8900F8A514C5644F0008A14C /* InfoPlist.strings */; };
+		8900F8A914C5644F0008A14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8A814C5644F0008A14C /* main.m */; };
+		8900F8AD14C5644F0008A14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8AC14C5644F0008A14C /* AppDelegate.m */; };
+		8900F8B014C5644F0008A14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8AF14C5644F0008A14C /* ViewController.m */; };
+		8900F8B314C5644F0008A14C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8900F8B114C5644F0008A14C /* ViewController_iPhone.xib */; };
+		8900F8B614C5644F0008A14C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8900F8B414C5644F0008A14C /* ViewController_iPad.xib */; };
+		8900F8E014C568560008A14C /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8D414C568560008A14C /* DDAbstractDatabaseLogger.m */; };
+		8900F8E114C568560008A14C /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8D614C568560008A14C /* DDASLLogger.m */; };
+		8900F8E214C568560008A14C /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8D814C568560008A14C /* DDFileLogger.m */; };
+		8900F8E314C568560008A14C /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8DA14C568560008A14C /* DDLog.m */; };
+		8900F8E414C568560008A14C /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8DC14C568560008A14C /* DDTTYLogger.m */; };
+		8900F8E514C568560008A14C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900F8DF14C568560008A14C /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8900F89814C5644F0008A14C /* GLEDIATOR Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLEDIATOR Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8900F89C14C5644F0008A14C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8900F89E14C5644F0008A14C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8900F8A014C5644F0008A14C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8900F8A414C5644F0008A14C /* LEDRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDRemote-Info.plist"; sourceTree = "<group>"; };
+		8900F8A614C5644F0008A14C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8900F8A814C5644F0008A14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8900F8AA14C5644F0008A14C /* LEDRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEDRemote-Prefix.pch"; sourceTree = "<group>"; };
+		8900F8AB14C5644F0008A14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8900F8AC14C5644F0008A14C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8900F8AE14C5644F0008A14C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8900F8AF14C5644F0008A14C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8900F8B214C5644F0008A14C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8900F8B514C5644F0008A14C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8900F8D314C568560008A14C /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		8900F8D414C568560008A14C /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		8900F8D514C568560008A14C /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		8900F8D614C568560008A14C /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		8900F8D714C568560008A14C /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		8900F8D814C568560008A14C /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		8900F8D914C568560008A14C /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		8900F8DA14C568560008A14C /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		8900F8DB14C568560008A14C /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		8900F8DC14C568560008A14C /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		8900F8DE14C568560008A14C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		8900F8DF14C568560008A14C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8900F89514C5644F0008A14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8900F89D14C5644F0008A14C /* UIKit.framework in Frameworks */,
+				8900F89F14C5644F0008A14C /* Foundation.framework in Frameworks */,
+				8900F8A114C5644F0008A14C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8900F88D14C5644F0008A14C = {
+			isa = PBXGroup;
+			children = (
+				8900F8D214C568560008A14C /* Logging */,
+				8900F8DD14C568560008A14C /* UDP */,
+				8900F8A214C5644F0008A14C /* LEDRemote */,
+				8900F89B14C5644F0008A14C /* Frameworks */,
+				8900F89914C5644F0008A14C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8900F89914C5644F0008A14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8900F89814C5644F0008A14C /* GLEDIATOR Remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8900F89B14C5644F0008A14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8900F89C14C5644F0008A14C /* UIKit.framework */,
+				8900F89E14C5644F0008A14C /* Foundation.framework */,
+				8900F8A014C5644F0008A14C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8900F8A214C5644F0008A14C /* LEDRemote */ = {
+			isa = PBXGroup;
+			children = (
+				8900F8AB14C5644F0008A14C /* AppDelegate.h */,
+				8900F8AC14C5644F0008A14C /* AppDelegate.m */,
+				8900F8AE14C5644F0008A14C /* ViewController.h */,
+				8900F8AF14C5644F0008A14C /* ViewController.m */,
+				8900F8B114C5644F0008A14C /* ViewController_iPhone.xib */,
+				8900F8B414C5644F0008A14C /* ViewController_iPad.xib */,
+				8900F8A314C5644F0008A14C /* Supporting Files */,
+			);
+			path = LEDRemote;
+			sourceTree = "<group>";
+		};
+		8900F8A314C5644F0008A14C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8900F8A414C5644F0008A14C /* LEDRemote-Info.plist */,
+				8900F8A514C5644F0008A14C /* InfoPlist.strings */,
+				8900F8A814C5644F0008A14C /* main.m */,
+				8900F8AA14C5644F0008A14C /* LEDRemote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8900F8D214C568560008A14C /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				8900F8D314C568560008A14C /* DDAbstractDatabaseLogger.h */,
+				8900F8D414C568560008A14C /* DDAbstractDatabaseLogger.m */,
+				8900F8D514C568560008A14C /* DDASLLogger.h */,
+				8900F8D614C568560008A14C /* DDASLLogger.m */,
+				8900F8D714C568560008A14C /* DDFileLogger.h */,
+				8900F8D814C568560008A14C /* DDFileLogger.m */,
+				8900F8D914C568560008A14C /* DDLog.h */,
+				8900F8DA14C568560008A14C /* DDLog.m */,
+				8900F8DB14C568560008A14C /* DDTTYLogger.h */,
+				8900F8DC14C568560008A14C /* DDTTYLogger.m */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		8900F8DD14C568560008A14C /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				8900F8DE14C568560008A14C /* GCDAsyncUdpSocket.h */,
+				8900F8DF14C568560008A14C /* GCDAsyncUdpSocket.m */,
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8900F89714C5644F0008A14C /* LEDRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8900F8B914C5644F0008A14C /* Build configuration list for PBXNativeTarget "LEDRemote" */;
+			buildPhases = (
+				8900F89414C5644F0008A14C /* Sources */,
+				8900F89514C5644F0008A14C /* Frameworks */,
+				8900F89614C5644F0008A14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDRemote;
+			productName = LEDRemote;
+			productReference = 8900F89814C5644F0008A14C /* GLEDIATOR Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8900F88F14C5644F0008A14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "-";
+			};
+			buildConfigurationList = 8900F89214C5644F0008A14C /* Build configuration list for PBXProject "LEDRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8900F88D14C5644F0008A14C;
+			productRefGroup = 8900F89914C5644F0008A14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8900F89714C5644F0008A14C /* LEDRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8900F89614C5644F0008A14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8900F8A714C5644F0008A14C /* InfoPlist.strings in Resources */,
+				8900F8B314C5644F0008A14C /* ViewController_iPhone.xib in Resources */,
+				8900F8B614C5644F0008A14C /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8900F89414C5644F0008A14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8900F8A914C5644F0008A14C /* main.m in Sources */,
+				8900F8AD14C5644F0008A14C /* AppDelegate.m in Sources */,
+				8900F8B014C5644F0008A14C /* ViewController.m in Sources */,
+				8900F8E014C568560008A14C /* DDAbstractDatabaseLogger.m in Sources */,
+				8900F8E114C568560008A14C /* DDASLLogger.m in Sources */,
+				8900F8E214C568560008A14C /* DDFileLogger.m in Sources */,
+				8900F8E314C568560008A14C /* DDLog.m in Sources */,
+				8900F8E414C568560008A14C /* DDTTYLogger.m in Sources */,
+				8900F8E514C568560008A14C /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8900F8A514C5644F0008A14C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8900F8A614C5644F0008A14C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8900F8B114C5644F0008A14C /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8900F8B214C5644F0008A14C /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8900F8B414C5644F0008A14C /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8900F8B514C5644F0008A14C /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8900F8B714C5644F0008A14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Toni Moeckel (537SC6Z5YM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "A78B7C3B-898F-42D2-B6B6-34225F762691";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8900F8B814C5644F0008A14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Toni Moeckel (537SC6Z5YM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A78B7C3B-898F-42D2-B6B6-34225F762691";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8900F8BA14C5644F0008A14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDRemote/LEDRemote-Prefix.pch";
+				INFOPLIST_FILE = "LEDRemote/LEDRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "GLEDIATOR Remote";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8900F8BB14C5644F0008A14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDRemote/LEDRemote-Prefix.pch";
+				INFOPLIST_FILE = "LEDRemote/LEDRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "GLEDIATOR Remote";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8900F89214C5644F0008A14C /* Build configuration list for PBXProject "LEDRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8900F8B714C5644F0008A14C /* Debug */,
+				8900F8B814C5644F0008A14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8900F8B914C5644F0008A14C /* Build configuration list for PBXNativeTarget "LEDRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8900F8BA14C5644F0008A14C /* Debug */,
+				8900F8BB14C5644F0008A14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8900F88F14C5644F0008A14C /* Project object */;
+}
